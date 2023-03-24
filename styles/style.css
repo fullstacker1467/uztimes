@@ -296,4 +296,8 @@ header .container ul a {
 .second .container .flex {
   display: flex;
   justify-content: stretch;
+}
+.second .container .flex .right {
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */

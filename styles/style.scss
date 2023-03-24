@@ -304,6 +304,10 @@ header {
     .flex{
       display: flex;
       justify-content: stretch;
+      .right{
+        display: flex;
+        justify-content: center;
+      }
     }
   }
 }
