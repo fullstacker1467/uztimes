@@ -33,6 +33,27 @@
   .first .container .left .bottom .card img {
     height: 80%;
   }
+  .second .container h2 {
+    padding: 0 20px;
+  }
+  .second .container .flex {
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .second .container .flex .left {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .second .container .flex .right {
+    width: 100%;
+  }
+  .second .container .flex .right .card h3 {
+    font-size: 14px;
+  }
+  .third .container .card {
+    width: 48%;
+  }
 }
 @media screen and (max-width: 800px) {
   nav .container .bar {
@@ -110,6 +131,13 @@
   .first .container .right .box {
     width: 80%;
     margin: 0 auto;
+  }
+  .third .container .card {
+    padding: 0;
+    width: 47%;
+  }
+  .third .container .card h3 {
+    font-size: 15px;
   }
 }
 @media screen and (max-width: 450px) {

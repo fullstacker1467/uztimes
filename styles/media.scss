@@ -59,6 +59,37 @@
       }
     }
   }
+  .second{
+    .container{
+      h2{
+        padding:  0 20px;
+      }
+      .flex{
+        align-items: center;
+       flex-direction: column;
+       gap: 30px;
+       .left{
+        width: 100%;
+        padding: 0 20px;
+       }
+       .right{
+        width: 100%;  
+        .card{
+          h3{
+          font-size: 14px;
+          }
+        }
+       }
+      }
+    }
+  }
+  .third{
+    .container{
+      .card{
+        width: 48%;
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -152,6 +183,17 @@
         .box{
           width: 80%;
           margin: 0 auto;
+        }
+      }
+    }
+  }
+  .third{
+    .container{
+      .card{
+        padding: 0;
+        width: 47%;
+        h3{
+          font-size: 15px;
         }
       }
     }

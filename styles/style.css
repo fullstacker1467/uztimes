@@ -293,11 +293,80 @@ header .container ul a {
   color: #3e54ac;
 }
 
+.second {
+  padding: 20px 0;
+}
+.second .container {
+  padding: 20px 0;
+}
+.second .container h2 {
+  color: #00235b;
+  margin: 20px 0;
+}
 .second .container .flex {
   display: flex;
   justify-content: stretch;
 }
+.second .container .flex .left {
+  width: 50%;
+}
+.second .container .flex .left img {
+  width: 100%;
+}
+.second .container .flex .left h3 {
+  margin: 15px 0;
+  font-size: 19px;
+  cursor: pointer;
+}
+.second .container .flex .left h3:hover {
+  color: #3e54ac;
+}
+.second .container .flex .left p {
+  font-size: 16px;
+}
 .second .container .flex .right {
+  width: 50%;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.second .container .flex .right .card {
+  width: 46%;
+  padding: 5px;
+  cursor: pointer;
+}
+.second .container .flex .right .card:hover h3 {
+  color: #3e54ac;
+}
+.second .container .flex .right .card:hover img {
+  border-radius: 10px;
+}
+.second .container .flex .right .card img {
+  width: 100%;
+}
+
+.third {
+  padding: 80px 0;
+  background: #f0f0f0;
+}
+.third .container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.third .container .card {
+  width: 23%;
+  padding: 20px;
+  cursor: pointer;
+}
+.third .container .card img {
+  width: 100%;
+}
+.third .container .card h3 {
+  cursor: pointer;
+}
+.third .container .card h3:hover {
+  color: #3e54ac;
 }/*# sourceMappingURL=style.css.map */
